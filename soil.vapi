@@ -63,7 +63,7 @@ namespace SOIL
         RGBdivA2
     }
 
-	public uint load_OGL_texture (string filename, Load force_channels, uint reuse_texture_ID, Flag flags);
+    public uint load_OGL_texture (string filename, Load force_channels, uint reuse_texture_ID, Flag flags);
 
     public uint load_OGL_cubemap (string x_pos_file, string x_neg_file,
                                     string y_pos_file, string y_neg_file,
